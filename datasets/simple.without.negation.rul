@@ -1,0 +1,5 @@
+(Temperature, high) & (Headache, yes) -> (Flue, yes)
+(Temperature, very_high) & (Headache, yes) -> (Flue, yes)
+(Temperature, normal) -> (Flue, no)
+(Temperature, high) & (Headache, no) -> (Flue, no)
+(Temperature, normal) & (Headache, no) -> (Flue, no)
